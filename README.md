@@ -37,15 +37,20 @@ avec des formateurs, et un système de badges pour motiver la progression.
 | Tests           | Jest                            |
 | Déploiement     | GitHub Pages → VPS              |
 
-## 🗓️ Avancement
+## 📅 Avancement
 
 - [x] Idée validée
 - [x] Modélisation ER
-- [ ] Wireframes
-- [ ] Intégration HTML/CSS
-- [ ] Logique JavaScript
-- [ ] Backend Java
-- [ ] Base de données SQL
+- [x] Wireframes
+- [x] Choix du stack technique
+- [ ] Structure du projet (dossiers + package.json)
+- [ ] Base de données SQLite (schéma multilingue)
+- [ ] API REST courses (Node.js + Express)
+- [ ] Intégration HTML/CSS/JS vanilla
+- [ ] Authentification JWT + bcrypt
+- [ ] Gestion emails (Nodemailer + Mailpit)
+- [ ] Protection des routes
+- [ ] Tests unitaires (Jest)
 - [ ] Déploiement
 
 ---
