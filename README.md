@@ -27,13 +27,15 @@ avec des formateurs, et un système de badges pour motiver la progression.
 
 ## 🛠️ Stack technique
 
-| Couche          | Technologie             |
-|-----------------|-------------------------|
-| Front-end       | HTML / CSS / JavaScript |
-| Back-end        | Java + Spring Boot      |
-| Base de données | MySQL / PostgreSQL      |
-| Auth            | JWT                     |
-| Déploiement     | GitHub Pages → VPS      |
+| Couche          | Technologie                     |
+|-----------------|---------------------------------|
+| Front-end       | HTML / CSS / JavaScript vanilla |
+| Back-end        | Node.js + Express               |
+| Base de données | SQLite (better-sqlite3)         |
+| Auth            | JWT + bcrypt                    |
+| Email           | Nodemailer + Mailpit (dev)      |
+| Tests           | Jest                            |
+| Déploiement     | GitHub Pages → VPS              |
 
 ## 🗓️ Avancement
 
