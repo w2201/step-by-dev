@@ -1,0 +1,27 @@
+{
+  "name": "step-by-dev",
+  "version": "1.0.0",
+  "description": "> Plateforme de reconversion digitale pour adultes en formation Full Stack Developer.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w2201/step-by-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/w2201/step-by-dev/issues"
+  },
+  "homepage": "https://github.com/w2201/step-by-dev#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
