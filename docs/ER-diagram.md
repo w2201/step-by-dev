@@ -8,6 +8,7 @@ erDiagram
         string email
         string password_hash
         string role
+        string langue
         date date_inscription
     }
 
@@ -31,6 +32,15 @@ erDiagram
         string titre
         text contenu
         int ordre
+    }
+
+    TRANSLATIONS {
+        int id PK
+        string table_cible
+        int id_cible FK
+        string langue
+        string champ
+        text valeur
     }
 
     PROGRESSION {
@@ -69,4 +79,6 @@ erDiagram
     MODULE ||--o{ LECON : "decompose"
     LECON ||--o{ PROGRESSION : "trackee par"
     BADGE ||--o{ USER_BADGE : "attribue via"
+    LECON ||--o{ TRANSLATIONS : "traduite par"
+    PARCOURS ||--o{ TRANSLATIONS : "traduit par"
 ```
